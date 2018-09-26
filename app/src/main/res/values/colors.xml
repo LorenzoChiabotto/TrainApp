@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#546e7a</color>
+
+    <color name="primaryLightColor">#819ca9</color>
+
+    <color name="primaryDarkColor">#29434e</color>
+    <color name="primaryDarkColorTransp">#A629434e</color>
+
+    <color name="secondaryColor">#f4511e</color>
+
+    <color name="secondaryLightColor">#ff844c</color>
+
+    <color name="secondaryDarkColor">#b91400</color>
+
+    <color name="primaryTextColor">#ffffff</color>
+
+    <color name="secondaryTextColor">#000000</color>
+
+
+    <color name="mananaFondo">#ffffb2</color>
+    <color name="mananaSol">#fdd835</color>
+    <color name="mananaNube">#fff59d</color>
+    <color name="mananaMontana">#d4e157</color>
+
+    <color name="tardeFondo">#b6ffff</color>
+    <color name="tardeSol">#ffeb3b</color>
+    <color name="tardeNube">#e3f2fd</color>
+    <color name="tardeMontana">#8bc34a</color>
+
+    <color name="nocheFondo">#000</color>
+    <color name="nocheLuna">#f8ffa3</color>
+    <color name="nocheMontana">#003E37</color>
+
+</resources>

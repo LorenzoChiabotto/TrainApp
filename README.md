@@ -1,5 +1,29 @@
-# TrainApp
+# README #
 
-Tesis Para la carrera Tecnicatura en programacion de UTN
+This README would normally document whatever steps are necessary to get your application up and running.
 
-Aplicacion Android para entrenamiento. Consiste en crear rutinas de ejercicios y brindar las herramientas para hacer un seguimiento (timer, gps, estadisticas, entre otros)
+### What is this repository for? ###
+
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+
+### How do I get set up? ###
+
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
+
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Who do I talk to? ###
+
+* Repo owner or admin
+* Other community or team contact

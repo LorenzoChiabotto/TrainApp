@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.lorenzoch.trainapp.ac_NuevaRutina">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/primaryColor">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtTituloFragmentSimple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre del AAA"
+                    android:textColor="#FFFFFFFF"
+                    android:layout_gravity="center_vertical"
+                    style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end|center_vertical">
+
+                    <android.support.design.widget.CheckableImageButton
+                        android:id="@+id/btGuardarFragmentSimple"
+                        android:layout_marginEnd="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/primaryColor"
+                        app:srcCompat="@drawable/ic_save" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </android.support.v7.widget.Toolbar>
+        
+        <FrameLayout
+            android:id="@+id/fragmentSimple"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

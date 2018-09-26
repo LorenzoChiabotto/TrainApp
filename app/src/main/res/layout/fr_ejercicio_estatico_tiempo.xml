@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:id="@+id/txtejercicioFragmentEjercicioEstaticoTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Ejercicio"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Chronometer
+        android:id="@+id/cronFragmentEjercicioEstaticoTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:background="#8FDC35"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:weightSum="6"
+        android:layout_margin="3dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/series"
+            android:padding="3dp"
+            android:textAlignment="textEnd"/>
+        <TextView
+            android:id="@+id/txtseriescompletadasFragmentEjercicioEstaticoTiempo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="XX"
+            android:textAlignment="textEnd"/>
+        <TextView
+            android:id="@+id/txtseriestotalesFragmentEjercicioEstaticoTiempo"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="/YY"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgFragmentEjercicioEstaticoTiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/img_flexiones"
+        android:layout_gravity="center"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"/>
+    <Button
+        android:id="@+id/btinterrumpirFragmentEjercicioEstaticoTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interrumpir"
+        android:background="@color/secondaryLightColor"/>
+
+
+</LinearLayout>

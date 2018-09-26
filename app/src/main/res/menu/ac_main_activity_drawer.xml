@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_hoy"
+            android:icon="@drawable/ic_play"
+            android:title="@string/hoy" />
+        <item
+            android:id="@+id/nav_rutina"
+            android:icon="@drawable/ic_rutinas"
+            android:title="@string/rutina" />
+        <item
+            android:id="@+id/nav_planes"
+            android:icon="@drawable/ic_plan"
+            android:title="@string/fr_plan" />
+        <item
+            android:id="@+id/nav_estadisticas"
+            android:icon="@drawable/ic_stats"
+            android:title="@string/estadistica" />
+        <item
+            android:id="@+id/nav_configuracion"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/config" />
+    </group>
+
+</menu>

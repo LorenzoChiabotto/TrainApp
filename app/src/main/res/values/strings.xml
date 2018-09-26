@@ -1,0 +1,122 @@
+<resources>
+    <string name="google_maps_API_key">AIzaSyBQ5MMR8ys-DXgZwK9fbrU8SgwzQ_O7JVI</string>
+    
+    <string name="app_name">TrainApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="errormaprequest">No puedes hacer maps request</string>
+    <string name="errorgetlastrequestion">No se puede obtener la localizacion actual</string>
+
+    <string-array name="arrayTipoEjercicios">
+        <item>@string/estaticoRepeticiones</item>
+        <item>@string/estaticoTiempo</item>
+        <item>@string/dinamicoLibre</item>
+        <item>@string/dinamicoTiempo</item>
+        <item>@string/dinamicoDistancia</item>
+    </string-array>
+
+    <string name="estaticoRepeticiones">Estatico repeticiones</string>
+    <string name="estaticoTiempo">Estatico tiempo</string>
+    <string name="dinamico">Ejercicio Dinamico</string>
+    <string name="dinamicoLibre">Dinamico libre</string>
+    <string name="dinamicoTiempo">Dinamico tiempo</string>
+    <string name="dinamicoDistancia">Dinamico distancia</string>
+
+    <string name="ejercicio">Ejercicio</string>
+    <string name="series">Series</string>
+    <string name="repeticiones">Repeticiones</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="descanso">Descanso entre series</string>
+    <string name="distancia">Distancia</string>
+    <string name="velocidad">Velocidad</string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="remover">REMOVER</string>
+
+    <string name="mensajeLibre">¿Esta seguro que desea crear un Ejercicio dinamico libre? Debera iniciar y detener el ejercicio manualmente.</string>
+    <string name="msgejerciciocompletado">Este ejercicio ya fue completado</string>
+    <string name="msgNoHayDetalle"> No hay detalle de esta estadistica, por favor seleccione un ejercicio dinamico</string>
+    <string name="ejnorealizado">Este ejercicio no fue completad y no hay detalles disponibles</string>
+    <string name="nodisponible">Esta funcion no se encuentra disponible</string>
+    <string name="msgCompletarCampos">Complete todo los campos para continuar</string>
+    <string name="msgSelectRutina">[Toque para seleccionar una rutina]</string>
+    <string name="msgSelectRutina2">Seleccione una rutina</string>
+    <string name="nombreRutina">Nombre Rutina</string>
+    <string name="cantidadEjercicios">Cantidad de ejercicios</string>
+    <string name="descansoDin">Tiempo pausado</string>
+    <string name="estadistica">Estadisticas</string>
+    <string name="config">Configuracion</string>
+    <string name="completo">Completado</string>
+    <string name="incompleto">Incompleto</string>
+    <string name="rutina">Rutina</string>
+    <string name="manana">Mañana</string>
+    <string name="tarde">Tarde</string>
+    <string name="noche">Noche</string>
+    <string name="hoy">Hoy</string>
+
+    <string name="start">Iniciar</string>
+    <string name="interrumpir">Interrumpir</string>
+    <string name="fin">Finalizar</string>
+    <string name="pausa">Pausa</string>
+
+
+    <string name="superiores">Superiores</string>
+    <string name="superioresOblicuos">Superiores oblicuos</string>
+    <string name="inferiores">Inferiores</string>
+    <string name="inferioresOblicuos">Inferiores oblicuos</string>
+    <string name="sentadillas">Sentadillas</string>
+    <string name="flexiones">Flexiones</string>
+
+    <string-array name="arrayEjercicios">
+        <item>@string/superiores</item>
+        <item>@string/superioresOblicuos</item>
+        <item>@string/inferiores</item>
+        <item>@string/inferioresOblicuos</item>
+        <item>@string/sentadillas</item>
+        <item>@string/flexiones</item>
+    </string-array>
+
+
+    <string name="lunes">Lunes</string>
+    <string name="martes">Martes</string>
+    <string name="miercoles">Miercoles</string>
+    <string name="jueves">Jueves</string>
+    <string name="viernes">Viernes</string>
+    <string name="sabado">Sabado</string>
+    <string name="domingo">Domingo</string>
+
+    <string-array name="arrayDias">
+        <item>@string/lunes</item>
+        <item>@string/martes</item>
+        <item>@string/miercoles</item>
+        <item>@string/jueves</item>
+        <item>@string/viernes</item>
+        <item>@string/sabado</item>
+        <item>@string/domingo</item>
+    </string-array>
+
+    <!-- Fragment tags -->
+    <string name="fr_nuevarutina">Nueva Rutina</string>
+    <string name="fr_listaejercicios">Lista Ejercicios</string>
+    <string name="fr_listarutinas">Rutinas</string>
+    <string name="fr_plan">Plan de entrenamiento</string>
+    <string name="fr_listaestadisticas">Estadisticas</string>
+    <string name="fr_rutinahoy">Rutina Hoy</string>
+    <string name="ac_startrutina">Rutina de hoy</string>
+    <string name="fr_estaticorepeticiones">Estatico repeticiones</string>
+    <string name="fr_estaticotiempo">Estatico tiempo</string>
+    <string name="fr_dinamico">Dinamico</string>
+    <string name="fr_detalleestadistica">Detalles estadistica</string>
+    <string name="fr_detalleestadisticadinamico">Detalles estadistica Dinamico</string>
+
+
+    <!-- intent keys -->
+    <string name="intent_message">intent_message</string>
+    <string name="intent_message_position">intent_message_position</string>
+    <string name="intent_message_dia">intent_message_dia</string>
+</resources>

@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="134dp"
+        android:height="47dp"
+        android:viewportWidth="134.55"
+        android:viewportHeight="47.2">
+    <path
+        android:fillColor="#FF000000"
+        android:strokeWidth="1"
+        android:pathData="M12.51,12.51m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:strokeColor="#000"/>
+    <path
+        android:fillColor="#FF000000"
+        android:strokeWidth="1"
+        android:pathData="M67.53,33.39L29.01,24.37A4.25,4.25 103.41,0 1,25.84 19.26L27.46,12.37A4.25,4.25 0,0 1,32.56 9.2L71.08,18.22A4.25,4.25 123.83,0 1,74.25 23.33L72.64,30.22A4.25,4.25 0,0 1,67.53 33.39z"
+        android:strokeColor="#000"/>
+    <path
+        android:fillColor="#FF000000"
+        android:strokeWidth="1"
+        android:pathData="M71.87,23.09l31.86,6a4,4 0,0 1,3 4.6h0a3.64,3.64 0,0 1,-4.15 3.26l-31.86,-6a4.05,4.05 0,0 1,-3 -4.61h0A3.62,3.62 0,0 1,71.87 23.09Z"
+        android:strokeColor="#000"/>
+    <path
+        android:fillColor="#FF000000"
+        android:strokeWidth="1"
+        android:pathData="M103.22,28.44l28.54,9.71a3.6,3.6 0,0 1,2 4.86h0a4.07,4.07 0,0 1,-4.92 2.51L100.28,35.8a3.6,3.6 0,0 1,-2 -4.86h0A4.05,4.05 0,0 1,103.22 28.44Z"
+        android:strokeColor="#000"/>
+    <path
+        android:fillColor="#FF000000"
+        android:strokeWidth="1"
+        android:pathData="M33.33,16.97L33.34,16.97A3.97,3.97 0,0 1,37.31 20.94L37.31,42.73A3.97,3.97 0,0 1,33.34 46.7L33.33,46.7A3.97,3.97 0,0 1,29.36 42.73L29.36,20.94A3.97,3.97 0,0 1,33.33 16.97z"
+        android:strokeColor="#000"/>
+    <path
+        android:pathData="M22.96,44.05l0.57,2.6v0l0.41,-2.79"
+        android:strokeColor="#e8431e"
+        android:fillColor="#e8431e"
+        android:strokeWidth="0.5"/>
+    <path
+        android:fillColor="#FF000000"
+        android:strokeWidth="1"
+        android:pathData="M23.51,31.06L23.37,44.84"
+        android:strokeColor="#e8431e"/>
+    <path
+        android:pathData="M23.92,31.6l-0.59,-2.59v0l-0.38,2.79"
+        android:strokeColor="#e8431e"
+        android:fillColor="#e8431e"
+        android:strokeWidth="0.5"/>
+</vector>

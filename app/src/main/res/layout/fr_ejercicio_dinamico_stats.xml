@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/fr_ejercicio_dinamico">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="312dp"
+        android:minHeight="150dp"
+        android:background="@color/primaryDarkColorTransp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtPausaFragmentEjercicioDinamico"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/primaryLightColor"
+                    android:padding="10dp"
+                    android:text="@string/pausa"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondaryColor"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtFinFragmentEjercicioDinamico"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/primaryLightColor"
+                    android:padding="10dp"
+                    android:text="@string/fin"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondaryColor"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <ElementosModificados.MiCronometro
+                    android:id="@+id/chronFragmentEjercicioDinamico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondaryDarkColor"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tiempo"
+                    android:textAlignment="center"
+                    android:textColor="@color/primaryDarkColor"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtVelFragmentEjercicioDinamico"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="00,00 km/h"
+                        android:textAlignment="center"
+                        android:textColor="@color/secondaryColor"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/velocidad"
+                        android:textAlignment="center"
+                        android:textColor="@color/primaryDarkColor"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtDistFragmentEjercicioDinamico"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="00,00 km"
+                        android:textAlignment="center"
+                        android:textColor="@color/secondaryColor"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/distancia"
+                        android:textAlignment="center"
+                        android:textColor="@color/primaryDarkColor"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
